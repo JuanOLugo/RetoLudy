@@ -36,7 +36,7 @@ server/
 │   └── dist/                # Build del frontend
 ├── app.js                   # Servidor Express
 └── package.json             # Configuración del servidor
-```
+````
 
 📖 Manual de Uso
 ✅ Requisitos
@@ -52,7 +52,7 @@ server/
 npm install
 node app.js
 Accede a la app desde tu navegador: http://localhost:3000
-```
+````
 
 🛠️ Build y Deploy del Proyecto
 Este proyecto usa Vite para construir el frontend. El resultado debe moverse manual o automáticamente a server/public/dist.
@@ -63,7 +63,7 @@ Desde la raíz del proyecto:
 ```plaintext
 cd client
 npm run build
-```
+````
 
 Esto creará la carpeta dist/.
 
@@ -72,13 +72,13 @@ En Windows:
 
 ```plaintext
 xcopy /E /I /Y client\dist server\public\dist
-```
+````
 
 En Linux/Mac:
 
 ```plaintext
 cp -r client/dist/ server/public/dist/
-```
+````
 
 🧑‍💻 Autor
 Juan Ojeda
