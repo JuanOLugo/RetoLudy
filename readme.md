@@ -41,12 +41,12 @@ server/
 📖 Manual de Uso
 ✅ Requisitos
 
--Tener instalado Node.js 18+ (opcional)
--⚙️ Modo sin Node.js (desde navegador)
--Entra a la carpeta: server/public/dist
--Haz doble clic en index.html o ábrelo con tu navegador favorito.
--⚙️ Modo con Node.js y Express
--Abre una terminal y navega a la carpeta server
+- Tener instalado Node.js 18+ (opcional)
+- ⚙️ Modo sin Node.js (desde navegador)
+- Entra a la carpeta: server/public/dist
+- Haz doble clic en index.html o ábrelo con tu navegador favorito.
+- ⚙️ Modo con Node.js y Express
+- Abre una terminal y navega a la carpeta server
 
 ```plaintext
 npm install
