@@ -36,13 +36,12 @@ server/
 │   └── dist/                # Build del frontend
 ├── app.js                   # Servidor Express
 └── package.json             # Configuración del servidor
-
+```
 
 📖 Manual de Uso
 ✅ Requisitos
 
 -Tener instalado Node.js 18+ (opcional)
-
 -⚙️ Modo sin Node.js (desde navegador)
 -Entra a la carpeta: server/public/dist
 -Haz doble clic en index.html o ábrelo con tu navegador favorito.
