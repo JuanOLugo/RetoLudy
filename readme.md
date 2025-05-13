@@ -10,13 +10,13 @@ Este proyecto es una aplicación web construida con **React + TypeScript + Tailw
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [React Router DOM](https://reactrouter.com/)
-- [Express JS](https://expressjs.com/) *(opcional para correr localmente)*
+- [Express JS](https://expressjs.com/) _(opcional para correr localmente)_
 
 ---
 
 ## 📁 Estructura del Proyecto
 
-```plaintext
+````plaintext
 client/
 ├── public/                  # Vacío
 └── src/
@@ -53,7 +53,8 @@ server/
 npm install
 node app.js
 Accede a la app desde tu navegador: http://localhost:3000
-```
+````
+
 🛠️ Build y Deploy del Proyecto
 Este proyecto usa Vite para construir el frontend. El resultado debe moverse manual o automáticamente a server/public/dist.
 
@@ -69,12 +70,14 @@ Esto creará la carpeta dist/.
 
 📁 Mover el Build al Servidor
 En Windows:
+
 ```plaintext
 xcopy /E /I /Y client\dist server\public\dist
+```
+
 En Linux/Mac:
-bash
-Copiar
-Editar
+
+```plaintext
 cp -r client/dist/ server/public/dist/
 ```
 
@@ -82,4 +85,3 @@ cp -r client/dist/ server/public/dist/
 Juan Ojeda
 
 Email: juanandresojeda77@gmail.com
-
